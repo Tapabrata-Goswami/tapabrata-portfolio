@@ -1,0 +1,39 @@
+.main-menu-container{
+    /* border-bottom: 1px solid #8d91f588; */
+}
+
+.logo-text{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.menu-item{
+    font-size: 18px;
+    color:var(--black);
+    font-weight: 500;
+}
+
+.menu-item::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    display: block;
+    /* top: 5px; */
+    background-color: transparent;
+}
+
+.menu-item:hover{
+    color: blue;
+}
+
+.menu-item:hover::after{
+    background-color:var(--yellow);
+    transition: 0.8s ease-in-out;
+}
+
+
+.logo-dot{
+    color:var(--yellow);
+    font-size: 60px;
+    font-weight: 700;
+}

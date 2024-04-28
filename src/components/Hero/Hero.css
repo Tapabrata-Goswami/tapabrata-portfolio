@@ -1,0 +1,43 @@
+.profile-image{
+    height: 380px;
+    margin-left: 60px;
+    border-radius: 50%;
+    /* border: 1px solid var(--yellow); */
+    box-shadow: 0 0 22px  var(--light-blue);
+}
+
+.hero-row{
+    /* height: 100svh; */
+    /* height:600px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.hero-subheadign{
+    font-size: 35px;
+    font-weight:600;
+}
+
+.heading-color{
+    background: -webkit-linear-gradient(#6ca2ff, #0438e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.short-heading{
+    font-size: 24px;
+    margin: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.download-resume{
+    border: 2px solid blue ;
+    background-color: transparent;
+}

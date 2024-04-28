@@ -1,0 +1,13 @@
+.footer-text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* .footer{
+    background-color: var(--light-blue);
+
+} */
+
+.footer-row{
+    height: 70px;
+}

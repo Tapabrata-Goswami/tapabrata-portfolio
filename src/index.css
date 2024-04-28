@@ -1,0 +1,28 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --black:#292929;
+  --yellow:rgb(255, 187, 0);
+  --blue:#0438e5;
+  --light-blue:#6ca2ff;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Resume btn code */
+.download-resume{
+  border: 2px solid var(--light-blue) ;
+  background-color: transparent;
+  color: var(--light-blue);
+  padding:10px 30px;
+  font-size: 18px;
+}
+
+.download-resume:hover{
+  transition: 0.8s ease-in-out;
+  
+}
