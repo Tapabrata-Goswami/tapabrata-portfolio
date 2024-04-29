@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import About from './pages/About'
 import ContactMe from './pages/ContactMe'
 import Protfolio from './pages/Protfolio'
+import Experience from './pages/Experience'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about-me' element={<About />} />
         <Route path='/contact-me' element={<ContactMe />} />
         <Route path='/protfolio' element={<Protfolio />} />
+        <Route path='/experience' element={<Experience />} />
       </Routes>
       {/* <Footer /> */}
     </BrowserRouter>
