@@ -38,3 +38,8 @@ a{
   transition: 0.8s ease-in-out;
   
 }
+
+/* Portfolio btn */
+.portfolio-project-btn{
+  font-family: "Courier Prime", monospace;
+}
