@@ -4,7 +4,7 @@ import './Form.css'
 function Form() {
   return (
     <div className='container my-3'>
-        <div className='row justify-content-center get-in-touch-contaier'>
+        <div className='row justify-content-center ml-100 get-in-touch-contaier'>
             <div className='col-md-6 d-flex align-items-center'>
                 <div>
                     <h6 className='contact-heading pb-3'>Get in touch</h6>

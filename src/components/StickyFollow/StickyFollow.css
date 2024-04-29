@@ -1,5 +1,5 @@
 .sticky-icons{
-    position: absolute;
+    position: fixed;
     top:350px;
     left: -40px;
     display: flex;

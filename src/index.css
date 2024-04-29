@@ -13,6 +13,14 @@ a{
   text-decoration: none;
 }
 
+.ml-100{
+  margin-left: 100px;
+}
+
+.mb-80{
+  margin-bottom: 80px;
+}
+
 /* Resume btn code */
 .download-resume{
   border: 2px solid var(--light-blue) ;

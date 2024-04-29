@@ -1,0 +1,12 @@
+.hashtag {
+  display: inline-block;
+  margin-left:3px ;
+  margin-right: 3px;
+  color: var(--blue); /* or any color you prefer */
+  font-weight: bold; /* optional: make hashtags bold */
+}
+
+.about-me-content-p{
+  font-size: 18px;
+  letter-spacing: .3px;
+}
