@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import About from './pages/About'
 import ContactMe from './pages/ContactMe'
+import Protfolio from './pages/Protfolio'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Route index element={<Home />} />
         <Route path='/about-me' element={<About />} />
         <Route path='/contact-me' element={<ContactMe />} />
+        <Route path='/protfolio' element={<Protfolio />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   )
 }

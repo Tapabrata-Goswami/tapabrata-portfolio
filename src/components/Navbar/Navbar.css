@@ -23,7 +23,7 @@
 }
 
 .menu-item:hover{
-    color: blue;
+    color: var(--blue);
 }
 
 .menu-item:hover::after{

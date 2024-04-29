@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import ProfileImage from '../../assets/1685480623630.jpg'
+import ProfileImage from '../../assets/Tapabrata.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons/faDownload'
 

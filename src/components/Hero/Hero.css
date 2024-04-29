@@ -1,9 +1,9 @@
 .profile-image{
     height: 380px;
     margin-left: 60px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* border: 1px solid var(--yellow); */
-    box-shadow: 0 0 22px  var(--light-blue);
+    /* box-shadow: 0 0 22px  var(--light-blue); */
 }
 
 .hero-row{
