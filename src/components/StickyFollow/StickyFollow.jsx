@@ -12,9 +12,9 @@ function StickyFollow() {
         <p className='stickyheading'>Follow Me</p>
         <span className='stert-line'></span>
         <div className='sticky-icn-box'>
-            <a href=""><FontAwesomeIcon icon={faGithub} /></a>
-            <a href=""><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href=""><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            <a href="https://github.com/Tapabrata-Goswami" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="" target="_blank"><FontAwesomeIcon icon={faXTwitter} /></a>
+            <a href="https://www.linkedin.com/in/tapabrata-goswami/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
         </div>
 
 

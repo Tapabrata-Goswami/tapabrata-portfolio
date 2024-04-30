@@ -3,6 +3,7 @@ import './Hero.css'
 import ProfileImage from '../../assets/Tapabrata.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons/faDownload'
+import Resume from '../../assets/Tapabrata_Goswami.pdf'
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
                 <p className='short-heading pl-3 pt-3'>☕ Fueled by Coffee</p>
                 <p className='short-heading pl-3'>🌎 Based in India</p>
                 <p className='short-heading pl-3'>💼 SDE at Dream</p>
-                <button className='btn btn-primary mt-4 download-resume'><FontAwesomeIcon icon={faDownload} /> Download Resume</button>
+                <a href={Resume} target="_blank" className='btn btn-primary mt-4 download-resume'><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
             </div>
         </div>
     </div>
