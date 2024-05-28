@@ -32,3 +32,12 @@
     margin-bottom: 0;
     /* margin-right:30px; */
 }
+
+
+
+@media only screen and (max-width:860px){
+    .sticky-icons {
+        top: 310px;
+        left: -65px;
+    }
+}

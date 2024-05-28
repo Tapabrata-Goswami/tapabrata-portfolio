@@ -8,7 +8,7 @@ function Navbar() {
         <div className='container main-menu-container'>
             <div className='row align-items-center main-menu p-2'>
                 <div className='col-md-5 d-flex justify-content-center'>
-                    <Link to='/experience' className='px-5 menu-item' >Experi..</Link>
+                    <Link to='/experience' className='px-5 menu-item' >Experince</Link>
                     <Link to='/about-me' className='px-5 menu-item'>About me</Link>
                 </div>
                 <div className='col-md-2 text-center'>

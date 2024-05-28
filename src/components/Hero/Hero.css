@@ -41,3 +41,24 @@
     border: 2px solid blue ;
     background-color: transparent;
 }
+
+@media only screen and (max-width:860px){
+    .profile-image{
+        height: 320px;
+        margin-left: 60px;
+    }
+    .hero-heading{
+        font-size: 30px;
+    }
+
+    .hero-subheadign {
+        font-size: 23px;
+    }
+
+    .short-heading {
+        font-size: 20px;
+    }
+
+
+
+}
