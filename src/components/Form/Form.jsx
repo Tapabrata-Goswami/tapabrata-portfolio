@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import nodemailer from 'nodemailer';
+// import nodemailer from 'nodemailer';
 import './Form.css'
 
 function Form() {
@@ -9,30 +9,30 @@ function Form() {
     const [email, setEmail] = useState("");
     const [msg, setMsg] = useState("");
 
-    const transporter = nodemailer.createTransport({
-        host: "smtp.hostinger.com",
-        port: 587,
-        secure: false, // Use `true` for port 465, `false` for all other ports
-        auth: {
-          user: "dev@tapabrata.me",
-          pass: "tapa8637@A",
-        },
-    });
+    // const transporter = nodemailer.createTransport({
+    //     host: "smtp.hostinger.com",
+    //     port: 587,
+    //     secure: false, // Use `true` for port 465, `false` for all other ports
+    //     auth: {
+    //       user: "dev@tapabrata.me",
+    //       pass: "tapa8637@A",
+    //     },
+    // });
 
-    const sendMail = async ()=>{
-        const info = await transporter.sendMail({
-            from: '"Tapabrata Goswami 👻" <dev@tapabrata.me>', // sender address
-            to: email, // list of receivers
-            subject: "Hello ✔", // Subject line
-            text: msg, // plain text body
-            html: "<b>Hello world?</b>", // html body
-        });
-        return info;
-    }
+    // const sendMail = async ()=>{
+    //     const info = await transporter.sendMail({
+    //         from: '"Tapabrata Goswami 👻" <dev@tapabrata.me>', // sender address
+    //         to: email, // list of receivers
+    //         subject: "Hello ✔", // Subject line
+    //         text: msg, // plain text body
+    //         html: "<b>Hello world?</b>", // html body
+    //     });
+    //     return info;
+    // }
 
     const submit = (e) =>{
         e.preventDefault();
-        console.log(sendMail());
+        // console.log(sendMail());
     }
 
   return (
