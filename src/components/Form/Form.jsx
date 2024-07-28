@@ -33,6 +33,7 @@ function Form() {
     const submit = (e) =>{
         e.preventDefault();
         // console.log(sendMail());
+        console.log("Mail send Succesfully");
     }
 
   return (
