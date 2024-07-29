@@ -34,6 +34,7 @@ function Form() {
         e.preventDefault();
         // console.log(sendMail());
         console.log("Mail send Succesfully");
+        console.log("Mail send Succesfully");
     }
 
   return (
